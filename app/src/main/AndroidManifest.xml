@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="gaizkamaulana.final_project">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/indonesia"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.NoActionBar">
+        <activity android:name=".MainActivity" />
+        <activity android:name=".MainActivity2" />
+        <activity android:name=".MainActivity3" />
+        <activity android:name=".MainActivity4" />
+        <activity android:name=".MainActivity5" />
+        <activity android:name=".MainActivity6" />
+        <activity android:name=".MainActivity7" />
+        <activity android:name=".Menu" />
+        <activity android:name=".Main">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Music" />
+        <activity android:name=".ListMusic" />
+        <activity android:name=".Music2"></activity>
+        <activity android:name=".Music3" />
+        <activity android:name=".Music4" />
+        <activity android:name=".Music5" />
+        <activity android:name=".AboutMe"></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtdaftar"
+            android:text="LAGU KEBANGSAAN"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:layout_marginTop="20dp"
+            />
+
+        <Button
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/txtdaftar"
+            android:layout_width="250dp"
+            android:layout_centerInParent="true"
+            android:layout_height="60dp"
+            android:background="#1E88E5"
+            android:text="Indonesia Raya"
+            android:id="@+id/btn1"
+            />
+        <Button
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/btn1"
+            android:layout_width="250dp"
+            android:layout_centerInParent="true"
+            android:layout_height="60dp"
+            android:background="#1E88E5"
+            android:text="Ibu Kita Kartini"
+            android:id="@+id/btn2"
+            />
+        <Button
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/btn2"
+            android:layout_width="250dp"
+            android:layout_centerInParent="true"
+            android:layout_height="60dp"
+            android:background="#1E88E5"
+            android:text="Berkibarlah bendera negriku"
+            android:id="@+id/btn3"
+            />
+        <Button
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/btn3"
+            android:layout_width="250dp"
+            android:layout_centerInParent="true"
+            android:layout_height="60dp"
+            android:background="#1E88E5"
+            android:text="Garuda Pancasila"
+            android:id="@+id/btn4"
+            />
+        <Button
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/btn4"
+            android:layout_width="250dp"
+            android:layout_centerInParent="true"
+            android:layout_height="60dp"
+            android:background="#1E88E5"
+            android:text="dari sabang sampai merauke"
+            android:id="@+id/btn5"
+            />
+
+
+        <ImageButton
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/btn5"
+            android:layout_width="250dp"
+            android:layout_centerInParent="true"
+            android:layout_height="60dp"
+            android:background="#1E88E5"
+            android:src="@drawable/ic_arrow_back_black_24dp"
+            android:id="@+id/btnback"
+            />
+
+    </RelativeLayout>
+
+</ScrollView>

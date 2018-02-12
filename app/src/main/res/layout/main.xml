@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/indonesia"
+        android:id="@+id/img"
+        />
+
+    <TextView
+        android:layout_below="@+id/img"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Aplikasi Daftar Presiden Beserta Lagu Kebangsaan"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:id="@+id/txtwelcome"
+        />
+    <Button
+        android:layout_width="250dp"
+        android:layout_centerInParent="true"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Daftar Presiden"
+        android:id="@+id/btndaftar"
+        android:layout_below="@+id/txtwelcome"
+        android:background="#1E88E5"
+
+        />
+    <Button
+        android:layout_width="250dp"
+        android:layout_centerInParent="true"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Lagu Kebangsaan"
+        android:id="@+id/btnmusic"
+        android:layout_below="@+id/btndaftar"
+        android:background="#1E88E5"
+        />
+    <Button
+        android:layout_width="250dp"
+        android:layout_centerInParent="true"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Tentang pembuat"
+        android:id="@+id/btnabout"
+        android:layout_below="@+id/btnmusic"
+        android:background="#1E88E5"
+        />
+    <Button
+        android:layout_width="250dp"
+        android:layout_centerInParent="true"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Keluar"
+        android:id="@+id/btnlogout"
+        android:layout_below="@+id/btnabout"
+        android:background="#1E88E5"
+        />
+
+
+</RelativeLayout>
